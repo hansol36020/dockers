@@ -5,8 +5,8 @@ Nginx install
 
 Copy the sources to your docker host and build the container, and to run.
 ```
-	docker build --rm -t nowage/nginx .
-	docker run -it --name n1 -p 8888:80 nowage/nginx
+	docker build --rm -t hansol36020/nginx .
+	docker run -it --name n1 -p 8888:80 hansol36020/nginx
 ```
 Get the port that the container is listening on:
 
